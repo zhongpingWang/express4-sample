@@ -1,0 +1,15 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+#userList .item{ height: 30px; line-height: 30px; width:300px;border:1px #ccc solid;border-right: 3px;margin-bottom: 12px;}
+#userList .item.selected{border-color: #06c;}
+#userList .item span{float: right;cursor: pointer;}
+#userList .item span:hover{color:#red;}
+
